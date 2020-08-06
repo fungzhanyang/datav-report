@@ -1,4 +1,11 @@
-import Vue from 'vue'
 import { Button } from 'element-ui'
 
-Vue.use(Button)
+const components = [Button]
+
+const install = (Vue) => {
+  components.forEach(component => {
+    Vue.use(component)
+  })
+}
+
+export default { install }
