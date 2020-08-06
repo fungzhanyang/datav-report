@@ -1,8 +1,8 @@
-import { Button } from 'element-ui'
+import { Button, Card, Row, Col } from 'element-ui'
 
-const components = [Button]
+const components = [Button, Card, Row, Col]
 
-const install = (Vue) => {
+const install = Vue => {
   components.forEach(component => {
     Vue.use(component)
   })
