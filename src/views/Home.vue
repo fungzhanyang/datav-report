@@ -32,5 +32,6 @@ export default {
   background: #eee;
   box-sizing: border-box;
   padding: 20px;
+  overflow: auto;
 }
 </style>
