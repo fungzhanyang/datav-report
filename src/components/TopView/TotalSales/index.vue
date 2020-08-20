@@ -5,10 +5,12 @@
         <div class="compare">
           <span>日同比</span>
           <span class="emphasis">7.3%</span>
+          <span class="increase"></span>
         </div>
         <div class="compare">
           <span>月同比</span>
           <span class="emphasis">7.3%</span>
+          <span class="decrease"></span>
         </div>
       </div>
     </template>
@@ -36,11 +38,8 @@ export default {
     margin-top: 3px;
     font-size: 12px;
     color: #666;
+    display: flex;
+    align-items: center;
   }
-}
-.emphasis {
-  margin-left: 5px;
-  color: #333;
-  font-weight: 700;
 }
 </style>

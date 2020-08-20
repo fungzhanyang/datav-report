@@ -46,3 +46,29 @@ export default {
   }
 }
 </style>
+
+<style lang="scss">
+.emphasis {
+  margin-left: 5px;
+  color: #333;
+  font-weight: 700;
+}
+.increase {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 4px;
+  border-color: transparent transparent red transparent;
+  border-style: solid;
+  margin: 0 0 4px 5px;
+}
+.decrease {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 4px;
+  border-color: green transparent transparent transparent;
+  border-style: solid;
+  margin: 4px 0 0 5px;
+}
+</style>
